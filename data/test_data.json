@@ -1,0 +1,18 @@
+{
+    "validCredentials": [{
+        "username": "tomsmith",
+        "password": "SuperSecretPassword!"
+    }],
+    "invalidUserCredentials": [{
+        "username": "tester",
+        "password": "12345"
+    }],
+    "invalidPasswordCredentials": [{
+        "username": "tomsmith",
+        "password": "tester"
+    },
+    {
+        "username": "tomsmith",
+        "password": "tester123"
+    }]
+}
